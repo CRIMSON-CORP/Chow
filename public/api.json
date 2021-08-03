@@ -1,0 +1,203 @@
+[{
+        "name": "Lagos",
+        "id": "1",
+        "resturants": [{
+                "id": "01",
+                "name": "Chiken Republic",
+                "region": "Ikeja",
+                "imgUrl": ["", "", "", ""],
+                "address": "Ojota, Lagos",
+                "price": "129",
+                "rating": 3,
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Id modi asperiores velit alias debitis facilis vero quas, unde officiis veniam aliquid in , nobis harum ratione sunt omnis minus culpa sit.",
+                "tags": [
+                    "Eatery",
+                    "Chiken",
+                    "Restuarant",
+                    "Alausa"
+                ],
+                "gmap_iframe_location": "",
+                "openingHours": {
+                    "open": "8",
+                    "close": "19"
+                },
+                "maxNoGuests": 4,
+                "state": "1"
+
+
+            },
+            {
+                "id": "02",
+                "name": "KFC",
+                "imgUrl": ["", "", "", ""],
+                "region": "Alausa",
+                "address": "Ojota, Lagos",
+                "price": "129",
+                "rating": 3,
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Id modi asperiores velit alias debitis facilis vero quas, unde officiis veniam aliquid in , nobis harum ratione sunt omnis minus culpa sit.",
+                "tags": [
+                    "Eatery",
+                    "Chiken",
+                    "Restuarant",
+                    "Alausa",
+                    "KFC"
+                ],
+                "gmap_iframe_location": "",
+                "openingHours": {
+                    "open": "8",
+                    "close": "19"
+                },
+                "maxNoGuests": 4,
+                "state": "1"
+            }
+        ]
+    },
+    {
+        "name": "Osun",
+        "id": "2",
+        "resturants": [{
+                "id": "03",
+                "name": "Kilimanjaro",
+                "imgUrl": ["", "", "", ""],
+                "region": "Sango",
+                "address": "Ojota, Osun",
+                "rating": 4,
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Id modi asperiores velit alias debitis facilis vero quas, unde officiis veniam aliquid in , nobis harum ratione sunt omnis minus culpa sit.",
+                "tags": [
+                    "eatery",
+                    "Kilimanjaro",
+                    "restuarant",
+                    "alausa"
+                ],
+                "gmap_iframe_location": "",
+                "openingHours": {
+                    "open": 8,
+                    "close": 19
+                },
+                "maxNoGuests": 4,
+                "state": "2"
+            },
+            {
+                "id": "04",
+                "name": "Country Kitchen",
+                "imgUrl": ["", "", "", ""],
+                "region": "Mokola",
+                "address": "Ojota, Osun",
+                "rating": 4,
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Id modi asperiores velit alias debitis facilis vero quas, unde officiis veniam aliquid in , nobis harum ratione sunt omnis minus culpa sit.",
+                "tags": [
+                    "eatery",
+                    "chiken",
+                    "restuarant",
+                    "alausa",
+                    "Country",
+                    "Kitchen"
+                ],
+                "gmap_iframe_location": "",
+                "openingHours": {
+                    "open": "8",
+                    "close": "19"
+                },
+                "maxNoGuests": 4,
+                "state": "2"
+            },
+            {
+                "id": "05",
+                "name": "Captain Cook",
+                "imgUrl": ["", "", "", ""],
+                "region": "Alausa",
+                "address": "Ojota, Osun",
+                "rating": 4,
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Id modi asperiores velit alias debitis facilis vero quas, unde officiis veniam aliquid in , nobis harum ratione sunt omnis minus culpa sit.",
+                "tags": [
+                    "eatery",
+                    "chiken",
+                    "restuarant",
+                    "alausa",
+                    "Cook"
+                ],
+                "openingHours": {
+                    "open": "8",
+                    "close": "19"
+                },
+                "maxNoGuests": 4,
+                "state": "2"
+            },
+            {
+                "id": "06",
+                "name": "Glory to God",
+                "imgUrl": ["", "", "", ""],
+                "region": "Dugbe",
+                "address": "Ojota, Osun",
+                "rating": 4,
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Id modi asperiores velit alias debitis facilis vero quas, unde officiis veniam aliquid in , nobis harum ratione sunt omnis minus culpa sit.",
+                "tags": [
+                    "eatery",
+                    "chiken",
+                    "restuarant",
+                    "alausa",
+                    "Glory",
+                    "God"
+                ],
+                "gmap_iframe_location": "",
+                "openingHours": {
+                    "open": "8",
+                    "close": "19"
+                },
+                "maxNoGuests": 4,
+                "state": "2"
+            },
+            {
+                "id": "07",
+                "name": "Stop Ova",
+                "imgUrl": ["", "", "", ""],
+                "region": "Apata",
+                "address": "Ojota, Osun",
+                "rating": 4,
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Id modi asperiores velit alias debitis facilis vero quas, unde officiis veniam aliquid in , nobis harum ratione sunt omnis minus culpa sit.",
+                "tags": [
+                    "eatery",
+                    "chiken",
+                    "restuarant",
+                    "alausa",
+                    "Stop",
+                    "Ova"
+                ],
+                "gmap_iframe_location": "",
+                "openingHours": {
+                    "open": "8",
+                    "close": "19"
+                },
+                "maxNoGuests": 4,
+                "state": "2"
+            },
+            {
+                "id": "08",
+                "name": "Glory to Glory",
+                "imgUrl": ["", "", "", ""],
+                "region": "Alausa",
+                "address": "Ojota, Osun",
+                "rating": 4,
+                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit.Id modi asperiores velit alias debitis facilis vero quas, unde officiis veniam aliquid in , nobis harum ratione sunt omnis minus culpa sit.",
+                "tags": [
+                    "eatery",
+                    "chiken",
+                    "restuarant",
+                    "alausa",
+                    "Glory"
+                ],
+                "gmap_iframe_location": "",
+                "openingHours": {
+                    "open": "8",
+                    "close": "19"
+                },
+                "maxNoGuests": 4,
+                "state": "2"
+            }
+        ]
+    }, {
+        "name": "Ibadan",
+        "id": "3",
+        "resturants": []
+    }
+]
