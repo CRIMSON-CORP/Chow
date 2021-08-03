@@ -526,6 +526,7 @@ input[type="time"] {
 .modal-content {
     width: clamp(340px, 100%, 700px);
     transition: height 0.5s ease;
+    max-height: 90vh;
 }
 
 .submit.continue {
@@ -596,7 +597,15 @@ input[type="time"] {
     position: relative;
     overflow-y: visible;
 }
-.table-data {
+
+.form-wrapper::-webkit-scrollbar {
+    width: 0px;
+}
+.form-wrapper::-webkit-scrollbar-track-piece {
+    border-radius: 10px;
+}
+.table-data,
+.personal-data {
     width: calc(100% - 32px);
     position: absolute;
 }
@@ -618,6 +627,10 @@ input[type="time"] {
     border-radius: 10px;
 }
 
+.modal-dialog {
+    height: 100%;
+}
+
 @media only screen and (max-width: 500px) {
     .modal-content,
     .modal-dialog {
@@ -633,7 +646,14 @@ input[type="time"] {
         overflow-y: scroll;
     }
 
-    .modal-content {
-        max-height: 90vh;
+    .table-data {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .table-data,
+    .personal-data {
+        width: 100%;
     }
 }

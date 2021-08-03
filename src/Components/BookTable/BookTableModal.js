@@ -59,11 +59,16 @@ export default BookTableModal;
 
 function TableData({ setData, selected, data, setActivePage, setCalcHeight }) {
     const table = useRef();
-    const [min, setMin] = useState(minSetter());
+    const [min, setMin] = useState(
+        data.date !== "Today" ? selected.openingHours.open + ":00" : minSetter()
+    );
     const form = useRef();
     useEffect(() => {
         setCalcHeight(table.current.offsetHeight);
     }, [setCalcHeight]);
+    useEffect(() => {
+        setMin(data.date !== "Today" ? selected.openingHours.open + ":00" : minSetter());
+    }, [data.date, selected.openingHours.open]);
 
     function selectGuest(val) {
         setData((prev) => {
@@ -97,11 +102,11 @@ function TableData({ setData, selected, data, setActivePage, setCalcHeight }) {
         return time;
     }
     setInterval(() => {
-        setMin(minSetter());
+        setMin(data.date !== "Today" ? selected.openingHours.open + ":00" : minSetter());
     }, 60000);
     return (
         <section className="table-data" ref={table}>
-            <div className="container py-5">
+            <div className="container py-0 py-md-5">
                 <form
                     ref={form}
                     onSubmit={(e) => {
@@ -165,12 +170,14 @@ function TableData({ setData, selected, data, setActivePage, setCalcHeight }) {
 
 function PersonalData({ data, setActivePage }) {
     function formatAMPM(date) {
-        var hour = date[0] + date[1];
+        var hour = date[0] + date[1],
+            minute = date[3] + date[4];
+        minute = +minute;
         hour = +hour;
         var ampm = hour >= 12 ? "PM" : "AM";
-        hour = hour % 12;
-        hour = hour ? date : 12;
-        var strTime = hour + ampm;
+        hour = hour >= 12 ? hour % 12 : hour;
+        var strTime = hour + ":" + minute + " " + ampm;
+        console.log(strTime);
         return strTime;
     }
     const [pData, setPData] = useState({});
@@ -238,6 +245,7 @@ function PersonalData({ data, setActivePage }) {
                         <button
                             onClick={(e) => {
                                 e.preventDefault();
+                                $(".form-wrapper").scrollTop(0);
                                 setActivePage("table");
                             }}
                         >

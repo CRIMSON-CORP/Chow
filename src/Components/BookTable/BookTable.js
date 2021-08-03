@@ -14,8 +14,7 @@ import RestaurantSlider from "../../utils/RestaurantSlider";
 import { ModalBox, useModal } from "../../utils/CustomComponents";
 import BookTableModal from "./BookTableModal";
 function ProtectBookTable() {
-    const { selected, resturantList } = useContext(resturants);
-    console.log(resturantList);
+    const { selected } = useContext(resturants);
     return isEmptyObject(selected) ? (
         <Redirect to={""} />
     ) : (
@@ -154,7 +153,6 @@ function OtherRestaurantsInRegion({ selected }) {
     index = resturantList.findIndex((res) => {
         return res.id === selected.state;
     });
-    console.log(index);
     resturantList[index].resturants.forEach((res) => {
         if (res.region === selected.region && res.id !== selected.id) {
             slider.push(res);
