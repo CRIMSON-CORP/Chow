@@ -113,7 +113,7 @@ function BookTable({ selected }) {
                         </h2>
                         <div className="mt-2"></div>
                     </div>
-                    <div className="col-md-12 cta text-center mt-5">
+                    <div className="col-md-12 cta text-center mt-5 w-100">
                         <button
                             onClick={() => {
                                 setShow(true);
@@ -122,7 +122,7 @@ function BookTable({ selected }) {
                             Book a Table
                         </button>
                     </div>
-                    <div className="col-md-12 location mt-5 data">
+                    <div className="col-md-12 location mt-5 data w-100">
                         <h2 className="location">Location</h2>
                         <iframe
                             src={selected.gmap_iframe_location}

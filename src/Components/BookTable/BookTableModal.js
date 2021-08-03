@@ -23,7 +23,7 @@ function BookTableModal({ setShow, selected }) {
     }
 
     return (
-        <div className="p-0 p-md-3 modal-form form-wrapper">
+        <div className="p-2 p-md-3 modal-form form-wrapper">
             <MdClose size="2em" onClick={() => setShow(false)} className="closeModal" />
             <h1 className="text-center">{selected.name}</h1>
             <hr className="my-3" />
