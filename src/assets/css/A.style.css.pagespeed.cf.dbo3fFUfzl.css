@@ -1606,16 +1606,11 @@ hr {
     color: #fe5f41;
 }
 .single-cat {
-    -webkit-transition: all 0.4s ease-out 0s;
-    -moz-transition: all 0.4s ease-out 0s;
-    -ms-transition: all 0.4s ease-out 0s;
-    -o-transition: all 0.4s ease-out 0s;
     transition: all 0.4s ease-out 0s;
     z-index: 1;
     padding: 35px 60px 40px 60px;
     background-color: #fff;
     border-radius: 10px;
-    margin: 0 12px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .single-cat {

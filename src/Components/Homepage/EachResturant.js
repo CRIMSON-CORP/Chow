@@ -10,7 +10,7 @@ function EachResturant({ restuarant, state }) {
         return text.substr(0, length) + "...";
     }
     return (
-        <div className="single-cat text-left mb-40 p-0 shadow">
+        <div className="single-cat text-left p-0 shadow">
             <div className="cat-img">
                 <img src={one} alt="" />
             </div>

@@ -5,7 +5,7 @@ import EachResturant from "../Components/Homepage/EachResturant";
 function RestaurantSlider({ array, spaceBetween, slidesPerView, style, state }) {
     SwiperCore.use(Navigation);
     return (
-        <Swiper slidesPerView={"auto"} navigation style={style}>
+        <Swiper slidesPerView={"auto"} spaceBetween={20} navigation style={style}>
             {array.length === 0 ? (
                 <h1 className="text-center no-match">No Matching Restaurants</h1>
             ) : (
