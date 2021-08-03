@@ -6,7 +6,7 @@ import WaitingList from "./Components/Homepage/WaitingList";
 function App() {
     return (
         <>
-            <Router>
+            <Router basename={"/Chow"}>
                 <ResturantsContext>
                     <Switch>
                         <Route path={"/wait-list"} exact>
