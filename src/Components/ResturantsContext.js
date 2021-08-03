@@ -7,7 +7,7 @@ function ResturantsContext(props) {
     const [loading, setLoading] = useState(false);
 
     useEffect(() => {
-        fetch("/api.json")
+        fetch("/Chow/api.json")
             .then((data) => data.json())
             .then((data) => {
                 setResturantsList(data);

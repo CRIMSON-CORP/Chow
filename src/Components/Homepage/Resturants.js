@@ -22,7 +22,7 @@ function Resturants() {
             <NavLink
                 key={index}
                 exact
-                to={state.name.toLowerCase()}
+                to={"/Chow/" + state.name.toLowerCase()}
                 className="nav-link"
                 id="nav-two-tab"
                 activeClassName="active"
@@ -46,8 +46,8 @@ function Resturants() {
             <Route
                 key={index}
                 path={[
-                    `/${index === 0 ? "" : state.name.toLowerCase()}`,
-                    `/${state.name.toLowerCase()}`,
+                    `/Chow/${index === 0 ? "" : state.name.toLowerCase()}`,
+                    `/Chow/${state.name.toLowerCase()}`,
                 ]}
                 exact
             >
