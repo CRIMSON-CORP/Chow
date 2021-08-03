@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Chow/static/css/main.11e48ebf.chunk.css",
-    "main.js": "/Chow/static/js/main.0add994d.chunk.js",
-    "main.js.map": "/Chow/static/js/main.0add994d.chunk.js.map",
+    "main.css": "/Chow/static/css/main.5dd5143c.chunk.css",
+    "main.js": "/Chow/static/js/main.d540813b.chunk.js",
+    "main.js.map": "/Chow/static/js/main.d540813b.chunk.js.map",
     "runtime-main.js": "/Chow/static/js/runtime-main.b0790aac.js",
     "runtime-main.js.map": "/Chow/static/js/runtime-main.b0790aac.js.map",
     "static/css/2.58de90e8.chunk.css": "/Chow/static/css/2.58de90e8.chunk.css",
@@ -14,7 +14,7 @@
     "service-worker.js": "/Chow/service-worker.js",
     "service-worker.js.map": "/Chow/service-worker.js.map",
     "static/css/2.58de90e8.chunk.css.map": "/Chow/static/css/2.58de90e8.chunk.css.map",
-    "static/css/main.11e48ebf.chunk.css.map": "/Chow/static/css/main.11e48ebf.chunk.css.map",
+    "static/css/main.5dd5143c.chunk.css.map": "/Chow/static/css/main.5dd5143c.chunk.css.map",
     "static/js/2.48a54f72.chunk.js.LICENSE.txt": "/Chow/static/js/2.48a54f72.chunk.js.LICENSE.txt",
     "static/media/Mr.Biggs_.971a7ea2.png": "/Chow/static/media/Mr.Biggs_.971a7ea2.png",
     "static/media/style.css": "/Chow/static/media/caret_right.d32d9e25.svg",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.b0790aac.js",
     "static/css/2.58de90e8.chunk.css",
     "static/js/2.48a54f72.chunk.js",
-    "static/css/main.11e48ebf.chunk.css",
-    "static/js/main.0add994d.chunk.js"
+    "static/css/main.5dd5143c.chunk.css",
+    "static/js/main.d540813b.chunk.js"
   ]
 }
